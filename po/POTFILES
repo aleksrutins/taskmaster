@@ -1,0 +1,7 @@
+data/com.rutins.Taskmaster.desktop.in
+data/com.rutins.Taskmaster.appdata.xml.in
+data/com.rutins.Taskmaster.gschema.xml
+src/window.ui
+src/main.py
+src/window.py
+

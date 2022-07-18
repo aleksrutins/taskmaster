@@ -1,0 +1,15 @@
+using Gtk 4.0;
+
+template TaskmasterWindow : ApplicationWindow {
+  default-width: 600;
+  default-height: 300;
+  title: "Taskmaster";
+
+  ListBox tasks {
+  	styles ["task-list"]
+  	margin-top: 10;
+  	margin-bottom: 10;
+  	margin-start: 10;
+  	margin-end: 10;
+  }
+}

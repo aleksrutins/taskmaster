@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="taskmaster">
+	<schema id="com.rutins.Taskmaster" path="/com/rutins/Taskmaster/">
+	</schema>
+</schemalist>

@@ -1,0 +1,27 @@
+@define-color main_bg #0f0723;
+@define-color main_bg_lighter #1b1135;
+
+window {
+  background-color: @main_bg;
+  color: white;
+  border: none;
+}
+.titlebar {
+  background: none;
+  border-bottom: none;
+}
+
+.titlebar windowcontrols button:hover {
+  background: @main_bg_lighter;
+}
+
+list.task-list {
+  background: @main_bg_lighter;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+list.task-list row {
+  padding: 5px;
+  border-radius: 10px;
+}
